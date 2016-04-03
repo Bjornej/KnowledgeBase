@@ -1,42 +1,24 @@
 <html>
+
 <head>
     <title>{{title}}</title>
-
-    <link href="{{relative_path nav_path "assets/css/bootstrap.min.css"}}" rel="stylesheet">
-
+    <link href="{{relative_path nav_path "assets/css/bootstrap.min.css "}}" rel="stylesheet">
+    <link href="{{relative_path nav_path "assets/css/style.css "}}" rel="stylesheet">
 </head>
 <body>
-
-    <div class="container">
+    <div class="container-fluid row">
 
         {{> breadcrumbs}}
+        <div class="">
 
-        <div class="row">
-
-            <div class="col-md-4">
-                <h3>All Nav</h3>
-                {{> nav_global}}
+            <div class="col-md-3 navigationSidebar">
+                <h3>All Nav</h3> {{> nav_global}}
             </div>
 
-            <div class="col-md-4">
-                <h3>Current Child Nav</h3>
-                {{> nav_relative}}
+            <div class="col-md-9 mainContentContainer">
+                <h4>{{title}}</h4> {{{contents}}}
             </div>
-
-            <div class="col-md-4">
-                <h3>Content</h3>
-                <div class="well well-sm">
-                    <h4>{{title}}</h4>
-                    {{{contents}}}
-                </div>
-            </div>
-
         </div>
-
-        <h3>Footer Nav</h3>
-        {{> nav_footer}}
-
     </div>
-
 </body>
 </html>

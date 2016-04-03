@@ -1,0 +1,21 @@
+.breadcrumb {
+    margin-bottom:0;
+}
+
+.container-fluid.row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navigationSidebar {
+    background-color: #CCC;
+    height:calc(100vh - 36px);
+
+}
+
+
+.mainContentContainer {
+    height:calc(100vh - 36px);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "knowledgebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "metalsmith": "^2.1.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-navigation": "^0.2.8",
+    "metalsmith-templates": "^0.7.0"
+  }
+}

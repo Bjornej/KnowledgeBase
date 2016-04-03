@@ -1,0 +1,1 @@
+An example of a static file based knowledge base, using a generated navigation tree
